@@ -1,98 +1,98 @@
-# Instant Meet
+# 🌐 Instant Meet
 
-A simple video calling website built with HTML, CSS, and JavaScript using WebRTC. This project enables real-time peer-to-peer video communication directly in the browser without needing external plugins or software.
+**Instant Meet** is a simple yet powerful **video calling web application** built with **HTML5, CSS3, and JavaScript** using the **WebRTC API**.  
+It enables **real-time peer-to-peer video and audio communication** directly in your browser — no plugins, no downloads, just instant connectivity.
 
-🚀 Features
+---
 
-🎥 One-to-one video calling
+## 🚀 Features
+- 🎥 **One-to-One Video Calling** – Connect with anyone in real-time  
+- 🔊 **Crystal-Clear Audio** – Smooth peer-to-peer audio streaming  
+- 💬 **Minimal Interface** – Clean, distraction-free design  
+- 🌐 **Browser-Based** – Works directly in Chrome, Firefox, Edge, etc.  
+- 🛡️ **Secure & Private** – Uses WebRTC standards for encrypted connections  
 
-🔊 Real-time audio communication
+---
 
-💬 Easy and minimal interface
+## 🛠️ Tech Stack
+- **HTML5** – Page structure and layout  
+- **CSS3** – Styling, responsiveness, and design elements  
+- **JavaScript (Vanilla JS)** – Core logic for media handling & signaling  
+- **WebRTC API** – Enables real-time audio/video communication  
 
-🌐 Runs directly in the browser (no installation needed)
+---
 
-🛡️ Secure connection with WebRTC standards
-
-🛠️ Tech Stack
-
-HTML5 – Structure of the web application
-
-CSS3 – Styling and responsive design
-
-JavaScript (Vanilla JS) – Core logic for signaling and media handling
-
-WebRTC API – Real-time peer-to-peer communication
-
-📂 Project Structure
+## 📂 Project Structure
 instant-meet/
-│
-├── web.html        # Main HTML file
-├── style.css       # Styling for the UI
-├── script.js       # JavaScript logic (WebRTC handling)
-│
-├── images/         # Project assets (icons, screenshots)
-│   ├── cht.png
-│   ├── free.png
-│   ├── light.png
-│   ├── mntr.png
-│   ├── mtr.png
-│   ├── security.png
-│   ├── shr.png
-│   └── videos.png
-│
-└── README.md       # Project documentation
+│── web.html # Main HTML file
+│── style.css # Styling for the user interface
+│── script.js # JavaScript logic (WebRTC handling)
+│── images/ # Icons, screenshots, assets
+│ ├── cht.png
+│ ├── free.png
+│ ├── light.png
+│ ├── mntr.png
+│ ├── mtr.png
+│ ├── security.png
+│ ├── shr.png
+│ └── videos.png
+│── README.md # Project documentation
 
-⚙️ Setup Instructions
+yaml
+Copy
+Edit
 
-Clone the Repository
+---
 
-git clone https://github.com/Adiii2003/instant-meet.git
-cd instant-meet
+## ⚙️ Setup Instructions
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/Adiii2003/instant-meet.git
+   cd instant-meet
+Open in browser
+Just double-click web.html in any modern browser.
 
-
-Open in Browser
-Simply open the web.html file in any modern browser (Chrome, Edge, Firefox).
-
-Grant Permissions
-Allow browser permissions for camera and microphone when prompted.
+Allow Permissions
+Grant access to camera and microphone when prompted.
 
 📖 How It Works
+User opens the web.html file in a browser.
 
-When you open web.html, the app will request access to your camera and microphone.
+The app requests camera and microphone permissions.
 
-Using WebRTC APIs, your media streams (audio + video) are captured.
+WebRTC captures media streams (audio + video).
 
-The app establishes a peer-to-peer connection between participants.
+A peer-to-peer connection is established between participants.
 
-Streams are exchanged, enabling real-time video/audio calling.
+Streams are exchanged, enabling a smooth real-time video call.
 
 🔮 Future Improvements
+✅ Integrated text chat alongside video calls
 
-✅ Add chat feature alongside video call
+✅ Group video conferencing support
 
-✅ Implement group video calling
+✅ Dedicated signaling server for multiple users
 
-✅ Deploy signaling server for multi-user support
-
-✅ Add authentication and private meeting rooms
+✅ Authentication & private meeting rooms
 
 🖼️ Screenshots
-
-(Add your project screenshots here for better presentation.)
+(Add your screenshots here for a more visual presentation!)
 
 🤝 Contributing
-
-Contributions are welcome!
+Contributions are always welcome!
 
 Fork the repository
 
-Create a new branch (feature-xyz)
+Create a feature branch (feature-xyz)
 
-Commit changes
+Commit your changes
 
-Push and open a pull request
+Push and open a Pull Request
 
 👨‍💻 Author
-
 Developed with ❤️ by Aditya Panchal
+
+⭐ If you like this project, don’t forget to star the repository!
+
+Copy
+Edit
