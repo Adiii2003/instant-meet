@@ -88,22 +88,3 @@ README.md
 
 1. Run `npm run test:integration` to run integration tests using Cypress
 
-📸 **Screenshots**
-----------------
-
-[Insert screenshots of the website in different scenarios, e.g., video call, screen sharing, etc.]
-
-📦 **API Reference**
--------------------
-
-[Insert API documentation, if applicable]
-
-👤 **Author**
-------------
-
-[Your Name]
-
-📝 **License**
--------------
-
-Licensed under the MIT License. See `LICENSE` for details.
