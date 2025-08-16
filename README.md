@@ -1,4 +1,4 @@
-📹 Instant Meet
+# Instant Meet
 
 A simple video calling website built with HTML, CSS, and JavaScript using WebRTC. This project enables real-time peer-to-peer video communication directly in the browser without needing external plugins or software.
 
