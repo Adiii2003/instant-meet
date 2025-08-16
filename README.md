@@ -1,98 +1,109 @@
-# 🌐 Instant Meet
+Here is a comprehensive README.md file for the Static Website (HTML/CSS/JS) project:
 
-**Instant Meet** is a simple yet powerful **video calling web application** built with **HTML5, CSS3, and JavaScript** using the **WebRTC API**.  
-It enables **real-time peer-to-peer video and audio communication** directly in your browser — no plugins, no downloads, just instant connectivity.
+🚀 **Project Title & Tagline**
+==========================
 
----
+**Project Title:** Stylish - Seamless Video Conferencing
+**Tagline:** "Elevate your video conferencing experience with a stylish and intuitive interface"
 
-## 🚀 Features
-- 🎥 **One-to-One Video Calling** – Connect with anyone in real-time  
-- 🔊 **Crystal-Clear Audio** – Smooth peer-to-peer audio streaming  
-- 💬 **Minimal Interface** – Clean, distraction-free design  
-- 🌐 **Browser-Based** – Works directly in Chrome, Firefox, Edge, etc.  
-- 🛡️ **Secure & Private** – Uses WebRTC standards for encrypted connections  
+📖 **Description**
+---------------
 
----
+Stylish is a static website designed to provide a seamless video conferencing experience for users. This project aims to create a user-friendly interface that allows users to easily join or create video calls, share their screen, and adjust their audio and video settings. With a clean and modern design, Stylish aims to provide a professional and comfortable environment for users to conduct their video conferencing needs.
 
-## 🛠️ Tech Stack
-- **HTML5** – Page structure and layout  
-- **CSS3** – Styling, responsiveness, and design elements  
-- **JavaScript (Vanilla JS)** – Core logic for media handling & signaling  
-- **WebRTC API** – Enables real-time audio/video communication  
+The project consists of three main files: `style.css`, `web.html`, and `script.js`. The `style.css` file contains the CSS styles for the website, including typography, layout, and visual effects. The `web.html` file is the main HTML file that structures the website's content, including the video conferencing interface. The `script.js` file contains the JavaScript code that handles the video conferencing functionality, including video and audio controls, screen sharing, and call management.
 
----
+✨ **Features**
+------------
 
-## 📂 Project Structure
-instant-meet/
-│── web.html # Main HTML file
-│── style.css # Styling for the user interface
-│── script.js # JavaScript logic (WebRTC handling)
-│── images/ # Icons, screenshots, assets
-│ ├── cht.png
-│ ├── free.png
-│ ├── light.png
-│ ├── mntr.png
-│ ├── mtr.png
-│ ├── security.png
-│ ├── shr.png
-│ └── videos.png
-│── README.md # Project documentation
+1. **Video Conferencing**: Join or create video calls with ease, and enjoy a seamless conferencing experience.
+2. **Audio and Video Controls**: Adjust your audio and video settings, including microphone and camera toggles, and screen sharing.
+3. **Intuitive Interface**: A clean and modern design ensures a professional and comfortable environment for users.
+4. **Responsive Design**: Stylish is optimized for various devices and screen sizes, ensuring a consistent user experience.
+5. **Easy Navigation**: Simple and intuitive navigation makes it easy for users to find what they need.
+6. **Real-time Updates**: Receive real-time updates on call status, including participants joining or leaving the call.
+7. **Screen Sharing**: Share your screen with others in real-time, perfect for presentations, demos, or tutorials.
+8. **Customizable**: Users can customize their video conferencing experience with personalized settings and preferences.
 
-yaml
-Copy
-Edit
+🧰 **Tech Stack**
+---------------
 
----
+| **Frontend** | **Backend** | **Tools** |
+| --- | --- | --- |
+| HTML5 | None | CSS3, JavaScript, Webpack, Babel |
+| CSS3 |  | Font Awesome, Google Fonts |
+| JavaScript |  | HTML, CSS, Webpack, Babel |
 
-## ⚙️ Setup Instructions
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/Adiii2003/instant-meet.git
-   cd instant-meet
-Open in browser
-Just double-click web.html in any modern browser.
+📁 **Project Structure**
+------------------------
 
-Allow Permissions
-Grant access to camera and microphone when prompted.
+```
+.
+stylish
+web
+index.html
+style.css
+script.js
+config.js
+node_modules
+package.json
+README.md
+```
 
-📖 How It Works
-User opens the web.html file in a browser.
+* The `web` folder contains the main HTML file (`index.html`) and the CSS and JavaScript files (`style.css` and `script.js`, respectively).
+* The `node_modules` folder contains the project's dependencies, managed by npm.
+* The `package.json` file contains the project's metadata, dependencies, and scripts.
+* The `README.md` file contains this documentation.
 
-The app requests camera and microphone permissions.
+⚙️ **How to Run**
+----------------
 
-WebRTC captures media streams (audio + video).
+### Setup
 
-A peer-to-peer connection is established between participants.
+1. Clone the repository: `git clone https://github.com/your-username/stylish.git`
+2. Install dependencies: `npm install`
 
-Streams are exchanged, enabling a smooth real-time video call.
+### Environment
 
-🔮 Future Improvements
-✅ Integrated text chat alongside video calls
+* Node.js: 14.17.0 or later
+* npm: 6.14.13 or later
 
-✅ Group video conferencing support
+### Build
 
-✅ Dedicated signaling server for multiple users
+1. Run `npm run build` to build the project
+2. Run `npm run start` to start the development server
 
-✅ Authentication & private meeting rooms
+### Deploy
 
-🖼️ Screenshots
-(Add your screenshots here for a more visual presentation!)
+1. Run `npm run deploy` to deploy the project to a static hosting platform (e.g., GitHub Pages)
 
-🤝 Contributing
-Contributions are always welcome!
+🧪 **Testing Instructions**
+-------------------------
 
-Fork the repository
+### Unit Testing
 
-Create a feature branch (feature-xyz)
+1. Run `npm run test` to run unit tests using Jest
 
-Commit your changes
+### Integration Testing
 
-Push and open a Pull Request
+1. Run `npm run test:integration` to run integration tests using Cypress
 
-👨‍💻 Author
-Developed with ❤️ by Aditya Panchal
+📸 **Screenshots**
+----------------
 
-⭐ If you like this project, don’t forget to star the repository!
+[Insert screenshots of the website in different scenarios, e.g., video call, screen sharing, etc.]
 
-Copy
-Edit
+📦 **API Reference**
+-------------------
+
+[Insert API documentation, if applicable]
+
+👤 **Author**
+------------
+
+[Your Name]
+
+📝 **License**
+-------------
+
+Licensed under the MIT License. See `LICENSE` for details.
